@@ -16,6 +16,7 @@
     <modules>
         <module>pm.eclipse.lean</module>
         <module>pm.eclipse.lean.feature</module>
+        <module>pm.eclipse.lean.platform.feature</module>
         <module>pm.eclipse.lean.product</module>
         <module>pm.eclipse.lean.target</module>
     </modules>
