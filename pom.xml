@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pm.eclipse.lean.group</groupId>
+    <artifactId>pm.eclipse.lean.parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <properties>
+        <tycho.version>1.7.0</tycho.version>
+        <tycho.extras.version>1.7.0</tycho.extras.version>
+    </properties>
+
+    <modules>
+        <module>pm.eclipse.lean</module>
+        <module>pm.eclipse.lean.feature</module>
+        <module>pm.eclipse.lean.product</module>
+        <module>pm.eclipse.lean.target</module>
+    </modules>
+
+    <build>
+        <plugins>
+            
+            <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>tycho-maven-plugin</artifactId>
+                <version>${tycho.version}</version>
+                <extensions>true</extensions>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>target-platform-configuration</artifactId>
+                <version>${tycho.version}</version>
+                <configuration>
+                    <target>
+                        <artifact>
+                            <groupId>pm.eclipse.lean.group</groupId>
+                            <artifactId>pm.eclipse.lean.target</artifactId>
+                            <version>${project.version}</version>
+                        </artifact>
+                    </target>
+                </configuration>
+            </plugin>
+            
+        </plugins>
+    </build>
+
+</project>
