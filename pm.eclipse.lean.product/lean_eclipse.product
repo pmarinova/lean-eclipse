@@ -3,6 +3,7 @@
 
 <product name="Lean Eclipse" uid="pm.eclipse.lean.product" id="pm.eclipse.lean.product" application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -13,6 +14,8 @@
 
    <windowImages/>
 
+   <splash
+      location="pm.eclipse.lean" />
    <launcher name="lean_eclipse">
       <linux icon="icons/icon.xpm"/>
       <win useIco="true">
@@ -20,6 +23,7 @@
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>

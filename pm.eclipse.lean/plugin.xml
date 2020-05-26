@@ -11,6 +11,22 @@
                name="appName"
                value="Lean Eclipse">
          </property>
+         <property
+               name="windowImages"
+               value="images/eclipse16.png,images/eclipse32.png,images/eclipse48.png">
+         </property>
+         <property
+               name="aboutImage"
+               value="images/about.png">
+         </property>
+         <property
+               name="aboutText"
+               value="Lean Eclipse for Joro">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="preferences.ini">
+         </property>
       </product>
    </extension>
 
