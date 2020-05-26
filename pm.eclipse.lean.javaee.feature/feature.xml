@@ -80,4 +80,24 @@
          id="org.eclipse.m2e.feature"
          version="0.0.0"/>
 
+   <includes
+         id="org.eclipse.jst.server_adapters.ext.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.jst.server_adapters.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.jst.server_core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.jst.server_ui.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.jst.server_userdoc.feature"
+         version="0.0.0"/>
+
 </feature>
