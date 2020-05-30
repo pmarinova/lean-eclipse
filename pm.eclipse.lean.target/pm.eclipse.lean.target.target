@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="lean_eclipse" sequenceNumber="10">
+<?pde version="3.8"?><target name="lean_eclipse" sequenceNumber="11">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.equinox.executable.feature.group" version="3.8.700.v20200207-2156"/>
@@ -9,10 +9,6 @@
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.jdt.feature.group" version="3.18.300.v20200305-0155"/>
-<repository location="https://download.eclipse.org/releases/2020-03/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.m2e.feature.feature.group" version="1.15.0.20200310-1832"/>
 <repository location="https://download.eclipse.org/releases/2020-03/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -36,6 +32,11 @@
 <unit id="org.eclipse.jst.server_core.feature.feature.group" version="3.4.400.v201910252115"/>
 <unit id="org.eclipse.jst.server_ui.feature.feature.group" version="3.4.400.v201910252115"/>
 <unit id="org.eclipse.jst.server_userdoc.feature.feature.group" version="3.3.300.v201901310132"/>
+<repository location="https://download.eclipse.org/releases/2020-03/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.m2e.feature.feature.group" version="1.15.0.20200310-1832"/>
+<unit id="org.eclipse.m2e.wtp.feature.feature.group" version="1.4.4.20200220-1005"/>
 <repository location="https://download.eclipse.org/releases/2020-03/"/>
 </location>
 </locations>
