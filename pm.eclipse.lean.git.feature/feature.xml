@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="pm.eclipse.lean.git.feature"
+      label="Git Integration"
+      version="1.0.0.qualifier">
+
+   <description>
+      Git Integration Components
+   </description>
+
+   <includes
+         id="org.eclipse.egit"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.jgit"
+         version="0.0.0"/>
+
+</feature>

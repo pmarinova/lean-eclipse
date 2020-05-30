@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="pm.eclipse.lean.maven.feature"
+      label="Maven Integration"
+      version="1.0.0.qualifier">
+
+   <description>
+      Maven Integration Components
+   </description>
+
+   <includes
+         id="org.eclipse.m2e.feature"
+         version="0.0.0"/>
+
+</feature>

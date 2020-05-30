@@ -16,7 +16,9 @@
     <modules>
         <module>pm.eclipse.lean</module>
         <module>pm.eclipse.lean.feature</module>
+        <module>pm.eclipse.lean.git.feature</module>
         <module>pm.eclipse.lean.javaee.feature</module>
+        <module>pm.eclipse.lean.maven.feature</module>
         <module>pm.eclipse.lean.platform.feature</module>
         <module>pm.eclipse.lean.product</module>
         <module>pm.eclipse.lean.target</module>
