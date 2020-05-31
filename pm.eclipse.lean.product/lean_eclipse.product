@@ -3,15 +3,24 @@
 
 <product name="Lean Eclipse" uid="pm.eclipse.lean.product" id="pm.eclipse.lean.product" application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
+   <aboutInfo>
+      <image path="images/about.png"/>
+      <text>
+         Lean Eclipse for Joro
+      </text>
+   </aboutInfo>
+
    <configIni use="default">
    </configIni>
 
    <launcherArgs>
+      <programArgs>-name &quot;Lean Eclipse&quot;
+      </programArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages/>
+   <windowImages i16="images/eclipse16.png" i32="images/eclipse32.png" i48="images/eclipse48.png" i64="images/eclipse64.png" i128="images/eclipse128.png"/>
 
    <splash
       location="pm.eclipse.lean" />
@@ -22,6 +31,7 @@
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>
@@ -46,7 +56,7 @@
    </configurations>
 
    <preferencesInfo>
-      <targetfile overwrite="false"/>
+      <targetfile overwrite="false" path="preferences.ini"/>
    </preferencesInfo>
 
    <cssInfo>

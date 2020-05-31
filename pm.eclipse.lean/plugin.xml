@@ -13,7 +13,7 @@
          </property>
          <property
                name="windowImages"
-               value="images/eclipse16.png,images/eclipse32.png,images/eclipse48.png">
+               value="images/eclipse16.png,images/eclipse32.png,images/eclipse48.png,images/eclipse64.png,images/eclipse128.png">
          </property>
          <property
                name="aboutImage"
