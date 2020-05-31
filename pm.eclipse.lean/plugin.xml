@@ -27,6 +27,10 @@
                name="preferenceCustomization"
                value="preferences.ini">
          </property>
+         <property
+            name="rendererFactoryUri"
+            value="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CustomWorkbenchRendererFactory">
+         </property>
       </product>
    </extension>
 

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse e4 Workbench SWT Renderer Patch
+Bundle-SymbolicName: org.eclipse.e4.ui.workbench.renderers.swt.patch;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.eclipse.e4.ui.workbench.renderers.swt
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
