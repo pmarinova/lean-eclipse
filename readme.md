@@ -7,6 +7,8 @@ A custom Eclipse distribution for Java EE development with minimal included feat
 * Git Integration
 * Maven Integration (+ integration for Java EE)
 
+All components are with their latest version taken from https://download.eclipse.org/releases/2020-03/.
+
 
 Why Lean Eclipse?
 =================
