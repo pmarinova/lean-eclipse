@@ -88,4 +88,16 @@
          id="org.eclipse.jst.server_userdoc.feature"
          version="0.0.0"/>
 
+   <includes
+         id="org.eclipse.jst.common.fproj.enablement.jdt"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.wst.common.fproj"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.jst.web_js_support.feature"
+         version="0.0.0"/>
+
 </feature>

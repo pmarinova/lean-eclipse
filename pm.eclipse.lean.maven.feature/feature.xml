@@ -13,7 +13,15 @@
          version="0.0.0"/>
 
    <includes
+         id="org.eclipse.m2e.sse.ui.feature"
+         version="0.0.0"/>
+
+   <includes
          id="org.eclipse.m2e.wtp.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.sonatype.m2e.mavenarchiver.feature"
          version="0.0.0"/>
 
 </feature>

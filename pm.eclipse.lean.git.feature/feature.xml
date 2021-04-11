@@ -16,4 +16,16 @@
          id="org.eclipse.jgit"
          version="0.0.0"/>
 
+   <includes
+         id="org.eclipse.jgit.gpg.bc"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.jgit.http.apache"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.jgit.ssh.apache"
+         version="0.0.0"/>
+
 </feature>
