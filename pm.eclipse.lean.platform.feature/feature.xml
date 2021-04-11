@@ -68,8 +68,4 @@
          id="org.eclipse.rcp"
          version="0.0.0"/>
 
-   <includes
-         id="org.eclipse.equinox.core.sdk"
-         version="0.0.0"/>
-
 </feature>
