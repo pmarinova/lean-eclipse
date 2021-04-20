@@ -41,7 +41,6 @@
    <features>
       <feature id="pm.eclipse.lean.feature"/>
       <feature id="pm.eclipse.lean.git.feature"/>
-      <feature id="pm.eclipse.lean.javaee.feature"/>
       <feature id="pm.eclipse.lean.maven.feature"/>
       <feature id="pm.eclipse.lean.platform.feature"/>
    </features>
