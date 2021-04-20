@@ -40,5 +40,9 @@
 			<unit id="org.eclipse.jst.server_ui.feature.feature.group" version="3.4.400.v202007170127"/>
 			<unit id="org.eclipse.jst.server_userdoc.feature.feature.group" version="3.3.300.v201901310132"/>
 		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="https://download.eclipse.org/justj/jres/11/updates/release/11.0.2"/>
+			<unit id="org.eclipse.justj.openjdk.hotspot.jre.full.feature.group" version="11.0.2.v20200815-0835"/>
+		</location>
 	</locations>
 </target>

@@ -16,6 +16,8 @@
    <launcherArgs>
       <programArgs>-name &quot;Lean Eclipse&quot;
       </programArgs>
+      <vmArgs>-Dosgi.requiredJavaVersion=11
+      </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
@@ -39,6 +41,7 @@
    </plugins>
 
    <features>
+      <feature id="org.eclipse.justj.openjdk.hotspot.jre.full" installMode="root"/>
       <feature id="pm.eclipse.lean.feature"/>
       <feature id="pm.eclipse.lean.git.feature"/>
       <feature id="pm.eclipse.lean.maven.feature"/>
@@ -46,6 +49,7 @@
    </features>
 
    <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
